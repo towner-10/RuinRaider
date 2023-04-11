@@ -49,6 +49,3 @@ coverage.xml
 
 # Sphinx documentation
 docs/_build/
-
-# Player Data
-player_data.json
