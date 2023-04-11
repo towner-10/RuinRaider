@@ -1,0 +1,89 @@
+{
+    "tilemap": "assets/maps/ruinMap.tmx",
+    "music": "assets/sounds/music/dungeon.wav",
+    "spawn_cooldown": 200,
+    "player": {
+        "x": 96,
+        "y": 576
+    },
+    "pistol": {
+        "x": 275,
+        "y": 550,
+        "damage": 25,
+        "fire_rate": 1
+    },
+    "merc_pistol": {
+        "x": 820,
+        "y": 500,
+        "damage": 50,
+        "fire_rate": 2
+    },
+    "chest": {
+        "x": 544,
+        "y": 96
+    },
+    "hearts": [
+        {
+            "x": 1060,
+            "y": 675
+        },
+        {
+            "x": 120,
+            "y": 300
+        }
+    ],
+    "arctium": [
+        {
+            "x": 1075,
+            "y": 75
+        },
+        {   "x": 890,
+            "y": 350
+        }
+    ],
+    "turrets": [
+        {
+            "x": -100,
+            "y": -100,
+            "direction_x":0,
+            "direction_y":0,
+            "angle":0
+        }
+    ],
+    "enemy_spawn_points": {
+        "least": {
+            "type": "crawler",
+            "x_range": {
+                "min": 736,
+                "max": 1120
+            },
+            "y_range": {
+                "min": 672,
+                "max": 736
+            }
+        },
+        "average": {
+            "type": "crawler",
+            "x_range": {
+                "min": 96,
+                "max": 608
+            },
+            "y_range": {
+                "min": 96,
+                "max": 224
+            }
+        },
+        "most": {
+            "type": "crawler",
+            "x_range": {
+                "min": 736,
+                "max": 1120
+            },
+            "y_range": {
+                "min": 96,
+                "max": 224
+            }
+        }
+    },
+    "arctium_spawn_points": {}
+}

@@ -1,0 +1,118 @@
+{
+    "tilemap": "assets/maps/caveMap.tmx",
+    "music": "assets/sounds/music/dungeon.wav",
+    "next_world": "cave",
+    "spawn_cooldown": 200,
+    "player": {
+        "x": 928,
+        "y": 736
+    },
+    "arct_blaster": {
+        "x": 820,
+        "y": 500,
+        "damage": 100,
+        "fire_rate": 3
+    },
+    "chest": {
+        "x": 750,
+        "y": 700
+    },
+    "hearts": [
+        {
+            "x": 1056,
+            "y": 96
+        },
+        {
+            "x": 96,
+            "y": 96
+        }
+    ],
+    "arctium": [
+        {
+            "x": 75,
+            "y": 500
+        }
+    ],
+    "turrets": [
+        {
+            "x": 1125,
+            "y": 285,
+            "direction_x":-1,
+            "direction_y":0,
+            "angle": 90
+        },
+        {
+            "x": 275,
+            "y": 745,
+            "direction_x":0,
+            "direction_y":-1,
+            "angle": 0
+        }
+    ],
+    "enemy_spawn_points": {
+        "least": {
+            "type": "crawler",
+            "x_range": {
+                "min": 608,
+                "max": 864
+            },
+            "y_range": {
+                "min": 96,
+                "max": 288
+            }
+        },
+        "average": {
+            "type": "spider",
+            "x_range": {
+                "min": 96,
+                "max": 352
+            },
+            "y_range": {
+                "min": 352,
+                "max": 544
+            }
+        },
+        "most": {
+            "type": "crawler",
+            "x_range": {
+                "min": 224,
+                "max": 736
+            },
+            "y_range": {
+                "min": 672,
+                "max": 736
+            }
+        }
+    },
+    "arctium_spawn_points": {
+        "least": {
+            "x_range": {
+                "min": 75,
+                "max": 435
+            },
+            "y_range": {
+                "min": 350,
+                "max": 500
+            }
+        },
+        "average": {
+            "x_range": {
+                "min": 600,
+                "max": 825
+            },
+            "y_range": {
+                "min": 85,
+                "max": 245
+            }
+        },"most": {
+            "x_range": {
+                "min": 895,
+                "max": 1075
+            },
+            "y_range": {
+                "min": 310,
+                "max": 450
+            }
+        }
+    }
+}
